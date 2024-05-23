@@ -1,0 +1,9 @@
+id: 1
+tipo: Bautizo
+descripcion: Bautizo para José Andrés
+dia: 1
+mes: 2
+ano: 2025
+hora_inicio: 09:00
+hora_fin: 11:00
+

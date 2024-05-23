@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #ffffff;
+    width: 935.85px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+img.lHead {
+    width: 600px;
+    height: 132px;
+    margin: 0px 0px 0px 0px;
+} 
+
+img.padre {
+    width: 200px;
+    height: 129.34px;
+    margin: 0px 0px 18px 165px;
+}
+
+img.padre {
+    width: 200px;
+    height: 129.34px;
+}
+
+
+.menu-bar {
+    background-color: #232323;
+    width: 935.85px;
+    height: 89.6px; 
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 935.85px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.chart-container {
+    width: 50%;
+    height: 50%;
+}
+
+.header, .menu-bar, .container {
+    display: block;
+    width: 935.85px;
+}
+
+.body-registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #289DCC;
+    color: white;
+}
+tr {
+    background-color: #ffffff;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+input[type="text"] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-color: #56ADC9;
+}
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+select:focus {
+    border-color: #4CAF50;
+    background-color: #e8f0e8;
+}
+
+#botonRegreso {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 0.3s;
+    transition: background-color 0.5s;
+}
+
+#botonRegreso:hover {
+    background-color: #56ADC9;
+}
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario-estilizado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.etiqueta-estilizada {
+    align-self: flex-start;
+}
+h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.certificado {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #333;
+    line-height: 1.5;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.button {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.button:hover {
+    background-color: #56ADC9;
+}
+.formulario-iniciar-Sesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    max-height: 80vh;
+    overflow-y: auto;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.obligatorio::after {
+    content: " *";
+    color: #289DCC; 
+    font-size: 20px; /* Hacer el asterisco un poco más grande */
+}
+
+.obligatorio {
+    color: #289DCC; 
+    font-weight: bold; /* Hacer el texto de los campos obligatorios en negrita */
+}
+
+#botonRegistro {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+#botonRegistro:hover {
+    background-color: #289DCC;
+}
+
+#botonInsertar {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+#botonInsertar:hover {
+    background-color: #56ADC9;
+}
+
+.botonInsertar {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.botonInsertar:hover {
+    background-color: #56ADC9;
+}
+.menu-registros {
+    position: relative;
+    display: inline-block;
+}
+
+.opciones-registros {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #f9f9f9;
+}
+
+.opciones-registros a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.5s;
+}
+
+.menu-registros:hover .opciones-registros {
+    display: block;
+    transition: display 0.5s; /* Agrega esta línea */
+}
+
+/* Estilo para el botón de Iniciar Sesión */
+button#iniciarSesion {
+    border: none;
+    color: white; /* Texto blanco */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 89.6px;
+    margin: 0;
+    padding: 0;
+    background-color: #232323; /* Agrega esta línea */
+}
+
+/* Estilo para el botón de Cerrar Sesión */
+button#cerrarSesion {
+    border: none;
+    color: white; /* Texto blanco */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 89.6px;
+    margin: 0;
+    padding: 0;
+    background-color: #232323; /* Agrega esta línea */
+}
+
+
+button#iniciarSesion:hover {
+    transition: display 0.5s;
+    background-color: #56ADC9; 
+}
+
+
+button#cerrarSesion:hover {
+    transition: display 0.5s;
+    background-color: #56ADC9; 
+}
+
+/* Estilo para el botón de registros */
+div.menu-registros > button {
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    height: 89.6px;
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    color: white;
+    position: relative;
+}
+
+div.menu-registros > button:hover {
+    background-color: #56ADC9;
+}
+
+/* Estilo para las opciones de registros */
+div.menu-registros div.opciones-registros {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #444444;
+}
+
+div.menu-registros div.opciones-registros a {
+    color: white; 
+}
+
+/* Cambiar el color de fondo al pasar el mouse sobre las opciones de registros */
+div.menu-registros div.opciones-registros a:hover {
+    transition: display 0.5s;
+    background-color: #56ADC9; 
+}
+
+.input-group-identidad {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-group-identidad select {
+    width: 70px;
+    margin-right: 5px;
+}
+
+.input-group-identidad input {
+    flex-grow: 1;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.search-bar select,
+.search-bar input[type="text"] {
+    width: 45%;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 45%; /* Ajusta este valor según tus necesidades */
+}
+
+.input-group label{
+    height: 50px;
+}
+.etiqueta-larga {
+    width: 250px; /* Ajusta este valor según tus necesidades */
+}
+.input-group label,
+.input-group input {
+    display: inline-block;
+    width: 200px;
+    
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#btn {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.titulo1 {
+    font-size: 2em;
+    /* Añade cualquier otra propiedad que necesites */
+}
+
+.titulo2 {
+    font-size: 1.5em;
+    /* Añade cualquier otra propiedad que necesites */
+}
+
+.titulo3 {
+    font-size: 1.17em;
+    /* Añade cualquier otra propiedad que necesites */
+}
+.center-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.titulo1, .titulo2, .titulo3 {
+        font-size: 20px;
+        text-align: center;
+}
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uppercase {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.blue-bracket {
+    color: blue;
+    font-size: 30px;
+    margin-right: 10px;
+}

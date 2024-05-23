@@ -1,0 +1,44 @@
+id: 1
+primer_nombre: Piero
+segundo_nombre: Giancarlo
+primer_apellido: Cappadona
+segundo_apellido: Macchia
+primer_nombre_papa: Giuseppe
+segundo_nombre_papa: Alessandro
+primer_apellido_papa: Cappadona
+segundo_apellido_papa: Vivaldi
+primer_nombre_mama: Gabriela
+segundo_nombre_mama: Geraldine
+primer_apellido_mama: Macchia
+segundo_apellido_mama: Gonzalez
+filiacion: Legitimo
+lugar_de_nacimiento: Tovar
+estado_de_nacimiento: Merida
+pais_de_nacimiento: Venezuela
+dia_de_nacimiento: 15
+mes_de_nacimiento: 05
+ano_de_nacimiento: 2015
+dia_de_bautizo: 08
+mes_de_bautizo: 12
+ano_de_bautizo: 2015
+primer_nombre_padrino: Hector
+segundo_nombre_padrino: Armando
+primer_apellido_padrino: Uscategui
+segundo_apellido_padrino: Cerezo
+primer_nombre_madrina: Keila
+segundo_nombre_madrina: Paola
+primer_apellido_madrina: Verastegui
+segundo_apellido_madrina: Jimenez
+primer_nombre_ministro: Plesbistero
+segundo_nombre_ministro: Juan
+primer_apellido_ministro: Martinez
+segundo_apellido_ministro: Gomez
+observacion: Sin Observaciones
+numero_registro_civil: 450
+ano_registro_civil: 2015
+numLibro: 120
+folio: 1
+numeral: 1
+notaMar: Sin notas Marginales
+finalidad: Legales
+

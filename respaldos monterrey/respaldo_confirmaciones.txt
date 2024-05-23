@@ -1,0 +1,44 @@
+id: 1
+primer_nombre: Diego
+segundo_nombre: Arturo
+primer_apellido: Lugo
+segundo_apellido: Izquierdo
+primer_nombre_papa: German
+segundo_nombre_papa: Fernando
+primer_apellido_papa: Lugo
+segundo_apellido_papa: Garmendia
+primer_nombre_mama: Paula
+segundo_nombre_mama: Sofia
+primer_apellido_mama: Izquierdo
+segundo_apellido_mama: Duran
+filiacion: Legitimo
+lugar_de_nacimiento: Lagos de San Jose
+estado_de_nacimiento: Mexico
+pais_de_nacimiento: Mexico
+dia_de_nacimiento: 11
+mes_de_nacimiento: 04
+ano_de_nacimiento: 2012
+dia_de_bautizo: 31
+mes_de_bautizo: 11
+ano_de_bautizo: 2012
+primer_nombre_padrino: Sebastian
+segundo_nombre_padrino: Alejandro
+primer_apellido_padrino: Toledo
+segundo_apellido_padrino: Forlan
+primer_nombre_madrina: Bianca
+segundo_nombre_madrina: Paloma
+primer_apellido_madrina: Yepes
+segundo_apellido_madrina: Llosa
+primer_nombre_ministro: Plesbistero
+segundo_nombre_ministro: Juan
+primer_apellido_ministro: Martinez
+segundo_apellido_ministro: Gomez
+observacion: Sin Observaciones
+numero_registro_civil: 378
+ano_registro_civil: 2012
+numLibro: 210
+folio: 2
+numeral: 2
+notaMar: Sin notas Marginales
+finalidad: Legales
+
